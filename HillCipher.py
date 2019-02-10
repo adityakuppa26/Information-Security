@@ -37,6 +37,7 @@ print(result)                # Output : POH
 # calculating inverse
         
 invmat=np.linalg.inv(mat)
+invmat=invmat%26
 
 # multiply inverse and encrypted message
 
